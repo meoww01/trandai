@@ -1,0 +1,93 @@
+{
+  "total": 5000,
+  "correct": 1257,
+  "accuracy": 25.14,
+  "subject_accuracy": {
+    "abstract_algebra": 31.0,
+    "anatomy": 18.51851851851852,
+    "astronomy": 23.026315789473685,
+    "business_ethics": 19.0,
+    "clinical_knowledge": 22.264150943396228,
+    "college_biology": 28.47222222222222,
+    "college_chemistry": 24.0,
+    "college_computer_science": 31.0,
+    "college_mathematics": 22.0,
+    "college_medicine": 20.23121387283237,
+    "college_physics": 21.568627450980394,
+    "computer_security": 25.0,
+    "conceptual_physics": 35.319148936170215,
+    "econometrics": 30.701754385964914,
+    "electrical_engineering": 28.965517241379313,
+    "elementary_mathematics": 26.71957671957672,
+    "formal_logic": 26.190476190476193,
+    "global_facts": 21.0,
+    "high_school_biology": 24.193548387096776,
+    "high_school_chemistry": 28.078817733990146,
+    "high_school_computer_science": 25.0,
+    "high_school_european_history": 24.242424242424242,
+    "high_school_geography": 22.727272727272727,
+    "high_school_government_and_politics": 27.979274611398964,
+    "high_school_macroeconomics": 22.30769230769231,
+    "high_school_mathematics": 25.185185185185183,
+    "high_school_microeconomics": 21.008403361344538,
+    "high_school_physics": 27.1523178807947,
+    "high_school_psychology": 27.43362831858407
+  },
+  "example_logs": [
+    {
+      "question": "Q에 대해 주어진 확대체 Q(sqrt(2), sqrt(3), sqrt(18))의 차수를 구하십시오.",
+      "choices": [
+        "0",
+        "4",
+        "2",
+        "6"
+      ],
+      "correct_answer_idx": 1,
+      "model_predicted_idx": 1
+    },
+    {
+      "question": "S_5에서 p = (1, 2, 5, 4)(2, 3)이라고 하면 S_5에서 <p>의 지수를 구하십시오.",
+      "choices": [
+        "8",
+        "2",
+        "24",
+        "120"
+      ],
+      "correct_answer_idx": 2,
+      "model_predicted_idx": 0
+    },
+    {
+      "question": "주어진 유한체에서 계수가 있는 다항식의 모든 영점을 찾으십시오. Z_5에서 x^5 + 3x^3 + x^2 + 2x입니다.",
+      "choices": [
+        "0",
+        "1",
+        "0,1",
+        "0,4"
+      ],
+      "correct_answer_idx": 3,
+      "model_predicted_idx": 3
+    },
+    {
+      "question": "명제 1 | 비가환군의 잉여군은 비가환적이다. 명제 2 | K가 H의 정규부분군이고 H가 G의 정규부분군이면 K는 G의 정규부분군이다.",
+      "choices": [
+        "참, 참",
+        "거짓, 거짓",
+        "참, 거짓",
+        "거짓, 참"
+      ],
+      "correct_answer_idx": 1,
+      "model_predicted_idx": 2
+    },
+    {
+      "question": "주어진 다항식환에서 주어진 다항식의 곱을 구하십시오. Z_8[x]에서 f(x) = 4x - 5, g(x) = 2x^2 - 4x + 2입니다.",
+      "choices": [
+        "2x^2 + 5",
+        "6x^2 + 4x + 6",
+        "0",
+        "x^2 + 1"
+      ],
+      "correct_answer_idx": 1,
+      "model_predicted_idx": 1
+    }
+  ]
+}
